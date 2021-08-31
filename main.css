@@ -1,0 +1,50 @@
+.wrapper{
+    margin: 5px;
+}
+
+#fun-color{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-image: linear-gradient(to right,purple, yellow);
+    width: 90%;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-left: 5%;
+}
+
+#wild-crazy{
+    animation: blinkingText 2.5s infinite;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border: 5px inset lightseagreen;
+}
+@keyframes blinkingText {
+    0%{     color: rgb(34, 10, 173);    }
+    49%{    color: rgb(129, 10, 10); }
+    60%{    color: rgb(26, 197, 26); }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.color-background{
+    background-image: url(../CSSCheckup/super-color.jpg);
+    height: 400px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.color-background h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.color-background p{
+    font-size: 40px;
+    color:rgba(26, 13, 100, 0.726);
+}
+
